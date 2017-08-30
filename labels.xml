@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Traductions>
+  <Parametre Separateur="\">
+    <Proprietes>
+      <Propriete>Caption</Propriete>
+      <Propriete>Text</Propriete>
+      <Propriete>Hint</Propriete>
+      <Propriete>Items</Propriete>
+    </Proprietes>
+  </Parametre>
+  <Langues>
+    <Langue index="FR" name="FrenchLang" default="1" />
+    <Langue index="EN" name="EnglishLang" default="0" />
+    <Langue index="ES" name="SpanishLang" default="0" />
+  </Langues>
+  <Labels>
+    <Popup type="TComboBox">
+      <Items>
+        <FR>Le fichier de lancement ne peut pas être créé.\Serveur non défini, compléter le menu 'Outils'.\Interface réalisée par Sébastien Canet, juillet 2017 - v1\IP du serveur mal défini.</FR>
+        <EN>Impossible to write on disk.\Server undefined, complete 'Tools' menu.\Software created by Sébastien Canet, july 2017 - v1\Server IP defined uncorrectly.</EN>
+		<ES>Impossible to write on disk.\Server undefined, complete 'Tools' menu.\Software creado por Sébastien Canet, julio 2017 - v1\Server IP defined uncorrectly.</ES>
+      </Items>
+    </Popup>
+    <InterfaceAI2U type="TFenetrePrincipale">
+      <Caption>
+        <FR>App Inventor 2 Serveur</FR>
+        <EN>App Inventor 2 Server</EN>
+        <ES>App Inventor 2 Server</ES>
+      </Caption>
+    </InterfaceAI2U>
+    <Button1All type="TButton">
+      <Caption>
+        <FR>Lancer les serveurs</FR>
+        <EN>Launch all servers</EN>
+        <ES>Lanzar servicios</ES>
+      </Caption>
+    </Button1All>
+    <Button2Stop type="TButton">
+      <Caption>
+        <FR>Tout arrêter</FR>
+        <EN>Stop all</EN>
+        <ES>Lanzar Scratch2</ES>
+      </Caption>
+    </Button2Stop>
+    <Button3AI2 type="TButton">
+      <Caption>
+        <FR>Ouvrir AI2U</FR>
+        <EN>Open AI2U</EN>
+        <ES>Lanzar AI2U</ES>
+      </Caption>
+    </Button3AI2>
+    <Label1 type="TLabel">
+      <Caption>
+        <FR>Adresses IP</FR>
+        <EN>IP adresss</EN>
+        <ES>IP adresss</ES>
+      </Caption>
+    </Label1>
+    <Fichier type="TMenuItem">
+      <Caption>
+        <FR>&Fichier</FR>
+        <EN>&File</EN>
+        <ES>&Archivo</ES>
+      </Caption>
+    </Fichier>
+			<Fusion1 type="TMenuItem">
+			  <Caption>
+				<FR>Fusion de &projets</FR>
+				<EN>&Project merge</EN>
+				<ES>&Project merge</ES>
+			  </Caption>
+			</Fusion1>
+			<Quitter1 type="TMenuItem">
+			  <Caption>
+				<FR>&Quitter</FR>
+				<EN>&Quit</EN>
+				<ES>&Salir</ES>
+			  </Caption>
+			</Quitter1>
+    <Outils1 type="TMenuItem">
+      <Caption>
+        <FR>&Outils</FR>
+        <EN>T&ools</EN>
+        <ES>H&erramientas</ES>
+      </Caption>
+    </Outils1>
+		<Localiserledossierexemples1 type="TMenuItem">
+		  <Caption>
+			<FR>Localiser le dossier 'bibliothèque'</FR>
+			<EN>Locate folder 'librairie'</EN>
+			<ES>Localizar carpeta de 'libreria'</ES>
+		  </Caption>
+		</Localiserledossierexemples1>
+		<Localiserledossierdocumentation1 type="TMenuItem">
+		  <Caption>
+			<FR>Localiser le dossier 'documentation'</FR>
+			<EN>Locate folder 'documentation'</EN>
+			<ES>Localizar carpeta de 'documentacion'</ES>
+		  </Caption>
+		</Localiserledossierdocumentation1>
+		<Init type="TMenuItem">
+		  <Caption>
+			<FR>Réinitialiser les p&aramètres</FR>
+			<EN>Initialise p&arameters</EN>
+			<ES>Inicializar los p&arametros</ES>
+		  </Caption>
+		</Init>		
+		<s2aio_window type="TMenuItem">
+		  <Caption>
+			<FR>Voir la fenêtre de scripts</FR>
+			<EN>See shell scripts</EN>
+			<ES>See shell scripts</ES>
+		  </Caption>
+		</s2aio_window>		
+	<Bibliothque type="TMenuItem">
+	  <Caption>
+		<FR>B&ibliothèque</FR>
+		<EN>L&ibrairie</EN>
+		<ES>L&ibrerias</ES>
+	  </Caption>
+	</Bibliothque>
+    <Documentation1 type="TMenuItem">
+      <Caption>
+        <FR>&Documentation</FR>
+        <EN>&Documentation</EN>
+        <ES>&Documentacion</ES>
+      </Caption>
+	</Documentation1>
+    <Langue1 type="TMenuItem">
+      <Caption>
+        <FR>&Langues</FR>
+        <EN>&Languages</EN>
+        <ES>&Lenguajes</ES>
+      </Caption>
+    </Langue1>
+    <FrenchLang type="TMenuItem">
+      <Caption>
+        <FR>Français</FR>
+        <EN>French</EN>
+        <ES>Françes</ES>
+      </Caption>
+    </FrenchLang>
+    <EnglishLang type="TMenuItem">
+      <Caption>
+        <FR>Anglais</FR>
+        <EN>English</EN>
+        <ES>Englices</ES>
+      </Caption>
+    </EnglishLang>
+    <SpanishLang type="TMenuItem">
+      <Caption>
+        <FR>Espagnol</FR>
+        <EN>Spanish</EN>
+        <ES>Espanol</ES>
+      </Caption>
+    </SpanishLang>
+	<Links type="TMenuItem">
+	  <Caption>
+		<FR>&Liens</FR>
+		<EN>&Links</EN>
+		<ES>&Enlaces</ES>
+	  </Caption>
+	</Links>
+			<Wiki1 type="TMenuItem">
+			  <Caption>
+				<FR>Wiki</FR>
+				<EN>Wiki</EN>
+				<ES>Wiki</ES>
+			  </Caption>
+			</Wiki1>
+			<A_propos type="TMenuItem">
+			  <Caption>
+				<FR>Fichiers source</FR>
+				<EN>Github file</EN>
+				<ES>Ficheros fuente Github</ES>
+			  </Caption>
+			</A_propos>
+			<SiteofficieldeAI2U type="TMenuItem">
+			  <Caption>
+				<FR>Site officiel de AI2U</FR>
+				<EN>AI2U official site</EN>
+				<ES>Sitio oficial de AI2U</ES>
+			  </Caption>
+			</SiteofficieldeAI2U>
+			<SiteofficielAppInventor type="TMenuItem">
+			  <Caption>
+				<FR>Site officiel AppInventor</FR>
+				<EN>AppInventor official site</EN>
+				<ES>Sitio oficial de AppInventor</ES>
+			  </Caption>
+			</SiteofficielAppInventor>
+	<Apropos1 type="TMenuItem">
+	  <Caption>
+		<FR>A propos</FR>
+		<EN>About</EN>
+		<ES>Acerca de</ES>
+	  </Caption>
+	</Apropos1>
+  </Labels>
+</Traductions>

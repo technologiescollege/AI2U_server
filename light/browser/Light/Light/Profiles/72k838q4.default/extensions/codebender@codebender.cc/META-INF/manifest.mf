@@ -1,0 +1,94 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NWgU0nJSoGMooX1zucw0pg==
+SHA1-Digest: qvJ/TiCibyHBUJQ2L4sReBoAoQk=
+
+Name: chrome/content/codebender_hq_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /btRfhiFvHRg/FE5P9lFDw==
+SHA1-Digest: dzHX4NNbJh0+oPj3rMbcfkgyxek=
+
+Name: plugins/avrdude.exe
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dyje5DJ8YRkq8VhVIFGl7A==
+SHA1-Digest: bJRunql1P7PMSTEnwqzKu9NAZSA=
+
+Name: plugins/libusb0.dll
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kHRfnpa1xmG7dLaUB91s6w==
+SHA1-Digest: gg9bxhVF1es4yXPLiHjr1MF0Otw=
+
+Name: plugins/npCodebendercc.dll
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fa5BKttgL6rnCTy2+k/bIQ==
+SHA1-Digest: OI8r52cQ4+1PFuFsC2wykifoy+w=
+
+Name: plugins/npCodebendercc.so
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GTQa+mPXiy/dVdb+hI9Npg==
+SHA1-Digest: yMY5dql3gu4QEf7thCd2doLZIq8=
+
+Name: plugins/npCodebendercc64.so
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DITI62AIdmUuKpfLPPEtkg==
+SHA1-Digest: f0iITtlVsCLl4S6S901O5CMqf7U=
+
+Name: plugins/Windows.avrdude.conf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: upprt/uuxGF0XJnjngIc9A==
+SHA1-Digest: NapvEhp+/jO0a833ubl4/Ou4g3k=
+
+Name: plugins/X11.32.avrdude
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iwO/HNE25E+w+bKsEIYN5w==
+SHA1-Digest: 65En43p9ijrXbkiWrYXRKX9D7m0=
+
+Name: plugins/X11.32.avrdude.conf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BlLn0UOW0ZC+qVTjkN1ktw==
+SHA1-Digest: CAcQx07XZopqBvhGpyvZUFfyz/U=
+
+Name: plugins/X11.64.avrdude
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qwaWuYVCOiQUJelaboGxUw==
+SHA1-Digest: hFoqvOIMfROU11ukQLWebfGE4qg=
+
+Name: plugins/X11.64.avrdude.conf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BlLn0UOW0ZC+qVTjkN1ktw==
+SHA1-Digest: CAcQx07XZopqBvhGpyvZUFfyz/U=
+
+Name: plugins/Codebendercc.plugin/Mac.avrdude
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: frf3ePn2cIP73HFiBSB5NQ==
+SHA1-Digest: 9HmH9YEUqrdo6UfgQdkUSa+eNBI=
+
+Name: plugins/Codebendercc.plugin/Mac.avrdude.conf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 91ZobIxNs0IkS5bSEgok3A==
+SHA1-Digest: a+5lfaMORERinr2oyjwOrK8CrSg=
+
+Name: plugins/Codebendercc.plugin/Contents/Info.plist
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tgE4YB9zfV59nDwOSuT9cg==
+SHA1-Digest: i4Y3rKB+tf6cSaGFgFeJrB6vsHo=
+
+Name: plugins/Codebendercc.plugin/Contents/MacOS/Codebendercc
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RSBEKN5iP+hdf/I0loMIcQ==
+SHA1-Digest: I0OswD3KSiOYO9HR3CQJt5KE33g=
+
+Name: plugins/Codebendercc.plugin/Contents/Resources/English.lproj/InfoP
+ list.strings
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lNQnHYw0pmz0v7dlvixaPA==
+SHA1-Digest: FhpMMNoX5avlP6LXQJ3mWFJs+E4=
+
+Name: plugins/Codebendercc.plugin/Contents/Resources/English.lproj/Local
+ ized.rsrc
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TTrFcEDKmYgGvzpst3KhFw==
+SHA1-Digest: LqxG3LUdVO0/Ed0Vmo/MclapTLU=
+
