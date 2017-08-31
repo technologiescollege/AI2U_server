@@ -15,5 +15,5 @@ Liens
 
 Video
 -----
-
-[]![Video](https://github.com/technologiescollege/AI2U_client/blob/master/AI2U/ai2u.jpg)(https://vimeo.com/231939866)
+**[https://vimeo.com/231939866](https://vimeo.com/231939866)**
+![Video](https://github.com/technologiescollege/AI2U_client/blob/master/AI2U/ai2u.jpg)
