@@ -1,5 +1,6 @@
 @echo off
 cd /d %~dp0
+set ai2upath=%CD%
 
 REM Do not edit!!!!!
 set _JAVA_OPTIONS=-Xms512m -Xmx512m
