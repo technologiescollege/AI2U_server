@@ -16,8 +16,8 @@ Google Update|$
 1|application/x-vnd.google.oneclickctrl.9|||$
 NPSPWRAP.DLL|$
 C:\Program Files\Microsoft Office\root\VFS\ProgramFilesX86\Microsoft Office\Office16\NPSPWRAP.DLL|$
-16.0.8326.2076|$
-1503782959673|0|0|0|$
+16.0.8730.2046|$
+1511052429236|0|0|0|$
 The plugin allows you to have a better experience with Microsoft SharePoint|$
 Microsoft Office 2016|$
 2
@@ -34,8 +34,8 @@ Silverlight Plug-In|$
 1|application/x-silverlight-2|||$
 npMeetingJoinPluginOC.dll|$
 C:\Program Files\Microsoft Office\root\VFS\ProgramFilesX86\Mozilla Firefox\plugins\npMeetingJoinPluginOC.dll|$
-16.0.8326.2076|$
-1503782357889|0|0|0|$
+16.0.8730.2046|$
+1511052431564|0|0|0|$
 The plugin allows you to have a better experience with Microsoft Lync|$
 Microsoft Office 2016|$
 1
@@ -113,9 +113,9 @@ Composer Player Web Plugin|$
 1
 0|application/x-composerplayerwebplugin|Composer Player Web Plugin||$
 npGoogleUpdate3.dll|$
-C:\Users\babas\AppData\Local\Google\Update\1.3.33.5\npGoogleUpdate3.dll|$
-1.3.33.5|$
-1500454012968|0|0|0|$
+C:\Users\babas\AppData\Local\Google\Update\1.3.33.7\npGoogleUpdate3.dll|$
+1.3.33.7|$
+1511052165384|0|0|0|$
 Google Update|$
 Google Update|$
 2
@@ -138,7 +138,7 @@ Google Talk Plugin Video Renderer|$
 1
 0|application/o1d|Google Talk Plugin Video Renderer|o1d|$
 npCodebendercc.dll|$
-F:\Logiciels\Projets\AI2U\serveur\Debug_Build\light\browser\Light\Light\Profiles\72k838q4.default\extensions\codebender@codebender.cc\plugins\npCodebendercc.dll|$
+F:\Logiciels\Programmation\AI2U_server\light\browser\Light\Light\Profiles\72k838q4.default\extensions\codebender@codebender.cc\plugins\npCodebendercc.dll|$
 1.7.0.0|$
 1491913525870|0|0|1|$
 Plugin for the Codebender.cc Arduino - Browser Communication|$
