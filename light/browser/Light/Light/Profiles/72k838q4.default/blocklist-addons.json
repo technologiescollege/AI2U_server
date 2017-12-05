@@ -1,433 +1,31 @@
 {
   "data": [
     {
-      "guid": "{7e907a15-0a4c-4ff4-b64f-5eeb8f841349}",
-      "schema": 1510083698490,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1510168860382,
-      "enabled": true,
-      "prefs": [],
-      "id": "f7569261-f575-4719-8202-552b20d013b0",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1411885",
-        "why": "This is a malicious add-on posing as a legitimate update.",
-        "name": "Manual Update"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{3602008d-8195-4860-965a-d01ac4f9ca96}",
-      "schema": 1509120801051,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1509120934909,
-      "enabled": true,
-      "prefs": [],
-      "id": "28c805a9-e692-4ef8-b3ae-14e085c19ecd",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1411885",
-        "why": "This is a malicious add-on posing as a legitimate antivirus.\n",
-        "name": "Manual Antivirus"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{87010166-e3d0-4db5-a394-0517917201df}",
-      "schema": 1509120801051,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1509120881470,
-      "enabled": true,
-      "prefs": [],
-      "id": "84dd8a02-c879-4477-8ea7-bf2f225b0940",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1411885",
-        "why": "This is a malicious add-on posing as a legitimate antivirus.\n",
-        "name": "Manual Antivirus"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{8ab60777-e899-475d-9a4f-5f2ee02c7ea4}",
-      "schema": 1509120801051,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1509120831329,
-      "enabled": true,
-      "prefs": [],
-      "id": "ccebab59-7190-4258-8faa-a0b752dd5301",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1411885",
-        "why": "This is a malicious add-on posing as a legitimate antivirus.\n",
-        "name": "Manual Antivirus"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{368eb817-31b4-4be9-a761-b67598faf9fa}",
-      "schema": 1509046897080,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1509120801043,
-      "enabled": true,
-      "prefs": [],
-      "id": "9abc7502-bd6f-40d7-b035-abe721345360",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1411885",
-        "why": "This is a malicious add-on posing as a legitimate antivirus.",
-        "name": "Manual Antivirus"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "fi@dictionaries.addons.mozilla.org",
-      "schema": 1508701297180,
-      "versionRange": [
-        {
-          "severity": 3,
-          "targetApplication": [
-            {
-              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}",
-              "minVersion": "56.0a1",
-              "maxVersion": "*"
-            }
-          ],
-          "maxVersion": "2.1.0",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1508856488536,
-      "enabled": true,
-      "prefs": [],
-      "id": "22431713-a93b-40f4-8264-0b341b5f6454",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1407147",
-        "why": "This add-on is causing frequent crashes in Firefox 56.",
-        "name": "Finnish spellchecker"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "firefox@mega.co.nz",
-      "schema": 1506800496781,
-      "versionRange": [
-        {
-          "severity": 1,
-          "targetApplication": [
-            {
-              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}",
-              "minVersion": "56.0a1",
-              "maxVersion": "*"
-            }
-          ],
-          "maxVersion": "3.16.1",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1506963401477,
-      "enabled": true,
-      "prefs": [],
-      "id": "a84e6eba-4bc1-4416-b481-9b837d39f9f0",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1404290",
-        "why": "Add-on is causing tabs to load blank.",
-        "name": "Mega.nz"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "@68eba425-7a05-4d62-82b1-1d6d5a51716b",
-      "schema": 1505072496256,
-      "versionRange": [
-        {
-          "severity": 1,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1505211411253,
-      "enabled": true,
-      "prefs": [],
-      "id": "595e0e53-b76b-4188-a160-66f29c636094",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1398905",
-        "why": "Misleads users into thinking this is a security and privacy tool (also distributed on a site that makes it look like an official Mozilla product).",
-        "name": "SearchAssist Incognito"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{efda3854-2bd9-45a1-9766-49d7ff18931d}",
-      "schema": 1503344500341,
-      "versionRange": [
-        {
-          "severity": 1,
-          "maxVersion": "0.8.17.2",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1503411102265,
-      "enabled": true,
-      "prefs": [],
-      "id": "d83011de-67a4-479b-a778-916a7232095b",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1392625",
-        "why": "Add-on injects remote code into privileged scope.",
-        "name": "Smart Referer"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "@H99KV4DO-UCCF-9PFO-9ZLK-8RRP4FVOKD9O",
-      "schema": 1502483549048,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1502483601731,
-      "enabled": true,
-      "prefs": [],
-      "id": "5df16afc-c804-43c9-9de5-f1835403e5fb",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1340877",
-        "why": "This is a malicious add-on that is being installed silently.",
-        "name": "FF Adr (malware)"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "@DA3566E2-F709-11E5-8E87-A604BC8E7F8B",
-      "schema": 1502480491460,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1502483549043,
-      "enabled": true,
-      "prefs": [],
-      "id": "0a47a2f7-f07c-489b-bd39-88122a2dfe6a",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1340877",
-        "why": "This is a malicious add-on that is being installed silently into users' systems.",
-        "name": "SimilarWeb (malware)"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "xdict@www.iciba.com",
-      "schema": 1501098091500,
-      "versionRange": [
-        {
-          "severity": 1,
-          "maxVersion": "2.3.1",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1501187580933,
-      "enabled": true,
-      "prefs": [],
-      "id": "28736359-700e-4b61-9c50-0b533a6bac55",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1384497",
-        "why": "This add-on has been discontinued and is creating a prompt loop that blocks users from using Firefox.",
-        "name": "PowerWord Grab Word Extension"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{3B4DE07A-DE43-4DBC-873F-05835FF67DCE}",
-      "schema": 1496950889322,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1496951442076,
-      "enabled": true,
-      "prefs": [],
-      "id": "510bbd9b-b883-4837-90ab-8e353e27e1be",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1371392",
-        "why": "This add-on performs hidden actions that cause the users' systems to act as a botnet.",
-        "name": "The Safe Surfing (malware)"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "WebProtection@360safe.com",
-      "schema": 1496846005095,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "5.0.0.1009",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1496849965060,
-      "enabled": true,
-      "prefs": [],
-      "id": "e16408c3-4e08-47fd-85a9-3cbbce534e95",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1336635",
-        "why": "This add-on breaks the Firefox user interface starting with version 52.",
-        "name": "360 Internet Protection versions 5.0.0.1009 and lower",
-        "who": "All users of Firefox 52 and above who have this add-on installed."
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "html5@encoding",
-      "schema": 1496788543767,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1496833261424,
-      "enabled": true,
-      "prefs": [],
-      "id": "c806b01c-3352-4083-afd9-9a8ab6e00b19",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1370847",
-        "why": "This malicious add-on targets a certain user group and spies on them.",
-        "name": "HTML5 Encoding (Malicious), all versions",
-        "who": "All users."
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "/^({95E84BD3-3604-4AAC-B2CA-D9AC3E55B64B}|{E3605470-291B-44EB-8648-745EE356599A}|{95E5E0AD-65F9-4FFC-A2A2-0008DCF6ED25}|{FF20459C-DA6E-41A7-80BC-8F4FEFD9C575}|{6E727987-C8EA-44DA-8749-310C0FBE3C3E}|{12E8A6C2-B125-479F-AB3C-13B8757C7F04}|{EB6628CF-0675-4DAE-95CE-EFFA23169743})$/",
-      "schema": 1494022576295,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1494024191520,
-      "enabled": true,
-      "prefs": [],
-      "id": "3fd71895-7fc6-4f3f-aa22-1cbb0c5fd922",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1362585",
-        "why": "All of these add-ons have been identified as malware, and are being installed in Firefox globally, most likely via a malicious application installer.",
-        "name": "Malicious globally-installed add-ons"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "@safesearchscoutee",
-      "schema": 1494013289942,
-      "versionRange": [
-        {
-          "severity": 3,
-          "maxVersion": "*",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1494022568654,
-      "enabled": true,
-      "prefs": [],
-      "id": "edad04eb-ea16-42f3-a4a7-20dded33cc37",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1362553",
-        "why": "This add-on intercepts queries sent to search engines and replaces them with its own, without user consent.",
-        "name": "SafeSearch Incognito (malware)"
-      },
-      "_status": "synced"
-    },
-    {
-      "guid": "{0D2172E4-C5AE-465A-B80D-53A840275B5E}",
-      "schema": 1493332768943,
-      "versionRange": [
-        {
-          "severity": 1,
-          "targetApplication": [
-            {
-              "guid": "{3550f703-e582-4d05-9a08-453d09bdfdc6}",
-              "minVersion": "52.0a1",
-              "maxVersion": "*"
-            }
-          ],
-          "maxVersion": "0.6.999",
-          "minVersion": "0"
-        }
-      ],
-      "last_modified": 1493332986987,
-      "enabled": true,
-      "prefs": [],
-      "id": "8c8af415-46db-40be-a66e-38e3762493bd",
-      "details": {
-        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1359473",
-        "why": "This add-on is causing recurring startup crashes in Thunderbird.",
-        "name": "Priority Switcher for Thunderbird before version 0.7",
-        "who": "All users of Thunderbird 52 and above, using a version of the Priority Switcher add-on before version 0.7"
-      },
-      "_status": "synced"
-    },
-    {
       "guid": "msktbird@mcafee.com",
       "enabled": true,
-      "last_modified": 1493332747360,
+      "last_modified": 1491824864283,
       "details": {
         "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1354912",
-        "why": "These versions of this add-on are known to cause frequent crashes in Thunderbird.",
-        "name": "McAfee Anti-Spam Thunderbird Extension 2.0 and lower"
+        "name": "McAfee Anti-Spam Thunderbird Extension 2.0 and lower",
+        "why": "These versions of this add-on are known to cause frequent crashes in Thunderbird."
       },
       "versionRange": [
         {
-          "severity": 3,
           "targetApplication": [
             {
-              "guid": "{3550f703-e582-4d05-9a08-453d09bdfdc6}",
               "minVersion": "0",
+              "guid": "{3550f703-e582-4d05-9a08-453d09bdfdc6}",
               "maxVersion": "*"
             }
           ],
+          "minVersion": "0",
           "maxVersion": "2.0",
-          "minVersion": "0"
+          "severity": 1
         }
       ],
       "prefs": [],
       "id": "9e86d1ff-727a-45e3-9fb6-17f32666daf2",
-      "schema": 1493150718059,
+      "schema": 1491766899630,
       "_status": "synced"
     },
     {
@@ -552,6 +150,35 @@
       "prefs": [],
       "id": "d33f6d48-a555-49dd-96ff-8d75473403a8",
       "schema": 1489007018796,
+      "_status": "synced"
+    },
+    {
+      "guid": "WebProtection@360safe.com",
+      "enabled": true,
+      "last_modified": 1489006863588,
+      "details": {
+        "who": "All users of Firefox 52 and above who have this add-on installed.",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1336635",
+        "name": "360 Internet Protection",
+        "why": "This add-on breaks the Firefox user interface starting with version 52."
+      },
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "minVersion": "52.0a1",
+              "guid": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}",
+              "maxVersion": "*"
+            }
+          ],
+          "minVersion": "0",
+          "maxVersion": "*",
+          "severity": 3
+        }
+      ],
+      "prefs": [],
+      "id": "08addad8-2f03-4cff-a791-e6f2a1b170ed",
+      "schema": 1489006712382,
       "_status": "synced"
     },
     {
@@ -6657,6 +6284,31 @@
       ],
       "prefs": [],
       "id": "f7986b7b-9b5a-d372-8147-8b4bd6f5a29b",
+      "schema": 1480349193877,
+      "_status": "synced"
+    },
+    {
+      "guid": "/^brasilescape.*\\@facebook\\.com$//",
+      "blockID": "i485",
+      "enabled": true,
+      "last_modified": 1480349207424,
+      "details": {
+        "who": "All Firefox users who have this add-on installed.",
+        "created": "2013-11-14T15:57:03Z",
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=938835",
+        "name": "Facebook Video Pack (malware)",
+        "why": "This add-on is malware that hijacks Facebook accounts."
+      },
+      "versionRange": [
+        {
+          "targetApplication": [],
+          "minVersion": "0",
+          "maxVersion": "*",
+          "severity": 3
+        }
+      ],
+      "prefs": [],
+      "id": "17a2bf85-b44a-4745-1b48-8be0c151d697",
       "schema": 1480349193877,
       "_status": "synced"
     },
