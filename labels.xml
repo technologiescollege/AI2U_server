@@ -16,9 +16,9 @@
   <Labels>
     <Popup type="TComboBox">
       <Items>
-        <FR>Le fichier de lancement ne peut pas être créé.\Serveur non défini, compléter le menu 'Outils'.\Interface réalisée par Sébastien Canet, juillet 2017 - v1\IP du serveur mal défini.</FR>
-        <EN>Impossible to write on disk.\Server undefined, complete 'Tools' menu.\Software created by Sébastien Canet, july 2017 - v1\Server IP defined uncorrectly.</EN>
-		<ES>Impossible to write on disk.\Server undefined, complete 'Tools' menu.\Software creado por Sébastien Canet, julio 2017 - v1\Server IP defined uncorrectly.</ES>
+        <FR>Le fichier de lancement ne peut pas être créé.\Serveur non défini, compléter le menu 'Outils'.\Interface réalisée par Sébastien Canet, juillet 2017 - v1.4.6\IP du serveur mal défini.\Lancer les serveurs\Arrêter les serveurs</FR>
+        <EN>Impossible to write on disk.\Server undefined, complete 'Tools' menu.\Software created by Sébastien Canet, july 2017 - v1.4.6\Server IP defined uncorrectly.\Launch all servers\Stop servers</EN>
+		<ES>Impossible to write on disk.\Server undefined, complete 'Tools' menu.\Software creado por Sébastien Canet, julio 2017 - v1.4.6\Server IP defined uncorrectly.\Lanzar servicios\Stop servicios</ES>
       </Items>
     </Popup>
     <InterfaceAI2U type="TFenetrePrincipale">
@@ -35,13 +35,6 @@
         <ES>Lanzar servicios</ES>
       </Caption>
     </Button1All>
-    <Button2Stop type="TButton">
-      <Caption>
-        <FR>Tout arrêter</FR>
-        <EN>Stop all</EN>
-        <ES>Lanzar Scratch2</ES>
-      </Caption>
-    </Button2Stop>
     <Button3AI2 type="TButton">
       <Caption>
         <FR>Ouvrir AI2U</FR>
@@ -49,6 +42,13 @@
         <ES>Lanzar AI2U</ES>
       </Caption>
     </Button3AI2>
+    <Button4Admin type="TButton">
+      <Caption>
+        <FR>Administration</FR>
+        <EN>Admin</EN>
+        <ES>Admin</ES>
+      </Caption>
+    </Button4Admin>
     <Label1 type="TLabel">
       <Caption>
         <FR>Adresses IP</FR>

@@ -1,26 +1,6 @@
 /*
  * Copyright (c) 2005, 2014, Oracle and/or its affiliates. All rights reserved.
  * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
  */
 
 /*
@@ -1104,6 +1084,7 @@ typedef long ABHWND64;
 #define ACCESSIBLE_BUTTON1_KEYSTROKE            32
 #define ACCESSIBLE_BUTTON2_KEYSTROKE            64
 #define ACCESSIBLE_BUTTON3_KEYSTROKE            128
+
 #define ACCESSIBLE_FKEY_KEYSTROKE               256  // F key pressed, character contains 1-24
 #define ACCESSIBLE_CONTROLCODE_KEYSTROKE        512  // Control code key pressed, character contains control code.
 
@@ -1123,6 +1104,7 @@ typedef long ABHWND64;
 #define ACCESSIBLE_VK_PAGE_UP       33
 #define ACCESSIBLE_VK_RIGHT         39
 #define ACCESSIBLE_VK_UP            38
+
 
     // a key binding associates with a component
     typedef struct AccessibleKeyBindingInfoTag {

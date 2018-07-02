@@ -63,15 +63,11 @@ function ode(){
       return;
     }
     var scriptFrame = $doc_0.createElement('iframe');
-    scriptFrame.src = 'javascript:""';
     scriptFrame.id = 'ode';
     scriptFrame.style.cssText = 'position:absolute; width:0; height:0; border:none; left: -1000px;' + ' top: -1000px;';
     scriptFrame.tabIndex = -1;
     $doc_0.body.appendChild(scriptFrame);
-    frameDoc = scriptFrame.contentDocument;
-    if (!frameDoc) {
-      frameDoc = scriptFrame.contentWindow.document;
-    }
+    frameDoc = scriptFrame.contentWindow.document;
     frameDoc.open();
     var doctype = document.compatMode == 'CSS1Compat'?'<!doctype html>':'';
     frameDoc.write(doctype + '<html><head><\/head><body><\/body><\/html>');
@@ -362,7 +358,7 @@ function ode(){
       return locale || 'en';
     }
     ;
-    values['locale'] = {'default':0, 'en':1, 'es_ES':2, 'fr_FR':3, 'it_IT':4, 'ko_KR':5, 'nl':6, 'pt_BR':7, 'ru':8, 'sv':9, 'zh_CN':10, 'zh_TW':11};
+    values['locale'] = {'default':0, 'en':1, 'es_ES':2, 'fr_FR':3, 'it_IT':4, 'ko_KR':5, 'nl':6, 'pt':7, 'pt_BR':8, 'ru':9, 'sv':10, 'zh_CN':11, 'zh_TW':12};
     providers['user.agent'] = function(){
       var ua = navigator.userAgent.toLowerCase();
       var docMode = $doc_0.documentMode;
@@ -417,30 +413,32 @@ function ode(){
     }
     var strongName;
     try {
-      unflattenKeylistIntoAnswers(['en', 'safari'], '04A445742E9C979FB72352BF4489FA9C');
-      unflattenKeylistIntoAnswers(['nl', 'gecko1_8'], '198F3CA3BEC303281F17748D049926E8');
-      unflattenKeylistIntoAnswers(['it_IT', 'gecko1_8'], '395AA0D8BB9DC6986AEDFC20B8910833');
-      unflattenKeylistIntoAnswers(['zh_CN', 'gecko1_8'], '3A4A7E9DE636B35F2BE0331708DE576A');
-      unflattenKeylistIntoAnswers(['es_ES', 'safari'], '3FB46E367E03224907CD7BEF26347B0C');
-      unflattenKeylistIntoAnswers(['nl', 'safari'], '48201591D4D52BB1158BF9832D796EFA');
-      unflattenKeylistIntoAnswers(['zh_TW', 'gecko1_8'], '5140C122B15523CE5AFCB08E3C7546FB');
-      unflattenKeylistIntoAnswers(['zh_TW', 'safari'], '6391A94D5810AE103CDDEC86514A1852');
-      unflattenKeylistIntoAnswers(['ru', 'safari'], '68DD3D1516F6200EEABF4BFFFF981ABD');
-      unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '71F3332B3026757A9E4CCFF45790258A');
-      unflattenKeylistIntoAnswers(['ko_KR', 'gecko1_8'], '797E7F7CCF15C194DF57994142917797');
-      unflattenKeylistIntoAnswers(['es_ES', 'gecko1_8'], '7AF840FC8E8A3F1C07B06C761875ADBB');
-      unflattenKeylistIntoAnswers(['fr_FR', 'safari'], '823452D852CBB7B24E371CCD1DCF26B2');
-      unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '8C797177D9A0D646980A021E89D0D762');
-      unflattenKeylistIntoAnswers(['zh_CN', 'safari'], '95F1F3E33758A57D52E069532E0A824F');
-      unflattenKeylistIntoAnswers(['pt_BR', 'gecko1_8'], '9D93EAB2F28736A36FBF04CF5FF7AC93');
-      unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'A8958806CD2A4565DFEB83CC429A6660');
-      unflattenKeylistIntoAnswers(['default', 'safari'], 'B085909F8E07334B9A6DDBD6B67D014C');
-      unflattenKeylistIntoAnswers(['it_IT', 'safari'], 'B1F5F19CD90B51E2A26970E4D5ADD2CA');
-      unflattenKeylistIntoAnswers(['ko_KR', 'safari'], 'BC159EBB9BA9DC82908504FAE92F21C6');
-      unflattenKeylistIntoAnswers(['sv', 'gecko1_8'], 'C3C55E4B01FA8C1EE59DC1388B8ACCCE');
-      unflattenKeylistIntoAnswers(['sv', 'safari'], 'D7E592F2DDE786857AFAC16325A01827');
-      unflattenKeylistIntoAnswers(['fr_FR', 'gecko1_8'], 'DD7ED15FF91536D2C93DEBA57916402F');
-      unflattenKeylistIntoAnswers(['pt_BR', 'safari'], 'E81D67A3A5E0D0224DB87A935CA175D3');
+      unflattenKeylistIntoAnswers(['fr_FR', 'safari'], '0496B087250860A4EE139B6511CB4903');
+      unflattenKeylistIntoAnswers(['zh_CN', 'gecko1_8'], '091B2259274A668727CD24CB35119E2B');
+      unflattenKeylistIntoAnswers(['fr_FR', 'gecko1_8'], '1DF8D94971BFA7C90F1EAE180401A5D7');
+      unflattenKeylistIntoAnswers(['zh_CN', 'safari'], '28BD85656FDA99D929E1B39B8BA7DFFF');
+      unflattenKeylistIntoAnswers(['ru', 'safari'], '2D389FF5C2601A6BE4C9D66BDDB6A793');
+      unflattenKeylistIntoAnswers(['it_IT', 'gecko1_8'], '308A4BE3B53535AB0A6B40BBD7230BE3');
+      unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '3C26A031073F4FA2A1885D16D9C8AD4A');
+      unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '49A042449D8A083FFFF338347F7A2D23');
+      unflattenKeylistIntoAnswers(['it_IT', 'safari'], '66A9E34640445C080A91215050934921');
+      unflattenKeylistIntoAnswers(['pt_BR', 'safari'], '71CD227F47BD929D670DDB0CBBA45120');
+      unflattenKeylistIntoAnswers(['nl', 'safari'], '7BFC9A2436D3B6F09D7F03AFE885941B');
+      unflattenKeylistIntoAnswers(['sv', 'safari'], '93DDE47D344A729838BFB80239DB69CE');
+      unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '95194952E9995E06E19E603C13D169EA');
+      unflattenKeylistIntoAnswers(['zh_TW', 'gecko1_8'], '956EDCF9BB71323F28CE60DB9899DCAC');
+      unflattenKeylistIntoAnswers(['nl', 'gecko1_8'], '9D40152169E7A87AC47FAEE5C1AB1B44');
+      unflattenKeylistIntoAnswers(['en', 'safari'], 'A269E5EA38B0D0EFB24295832D67F76A');
+      unflattenKeylistIntoAnswers(['pt', 'safari'], 'A34E1160594A68B7313C560B9A06E269');
+      unflattenKeylistIntoAnswers(['pt_BR', 'gecko1_8'], 'A9D96067F002B8C3737F96973FAC4857');
+      unflattenKeylistIntoAnswers(['default', 'safari'], 'B2C2E2C6264BA4FC472E1130CE5168F1');
+      unflattenKeylistIntoAnswers(['es_ES', 'gecko1_8'], 'BA5C14C46FE5E87BB0E43E6960A993FA');
+      unflattenKeylistIntoAnswers(['sv', 'gecko1_8'], 'BC18CD9163D11D1D1C39C89E8DA2E461');
+      unflattenKeylistIntoAnswers(['ko_KR', 'gecko1_8'], 'C08E44AD17AAD63013C13CCBE979E5E2');
+      unflattenKeylistIntoAnswers(['zh_TW', 'safari'], 'C2A3B58273914914D542780FDEBADE55');
+      unflattenKeylistIntoAnswers(['ko_KR', 'safari'], 'D5B09A59BE7D8620FCF4237AD5D0821B');
+      unflattenKeylistIntoAnswers(['es_ES', 'safari'], 'E1376B247F7367F3611F1EEBB6505A4B');
+      unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'FB25166A4F2D5218CED13DE7F9165C0A');
       strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
       var idx = strongName.indexOf(':');
       if (idx != -1) {

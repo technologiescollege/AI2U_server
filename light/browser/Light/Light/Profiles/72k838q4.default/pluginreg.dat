@@ -5,10 +5,19 @@ Version|0.17|$
 Arch|x86-gcc3|$
 
 [PLUGINS]
+npGoogleUpdate3.dll|$
+C:\Program Files (x86)\Google\Update\1.3.33.17\npGoogleUpdate3.dll|$
+1.3.33.17|$
+1526506095341|0|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
 NPSPWRAP.DLL|$
 C:\Program Files\Microsoft Office\root\VFS\ProgramFilesX86\Microsoft Office\Office16\NPSPWRAP.DLL|$
-16.0.8730.2046|$
-1515110929116|0|0|0|$
+16.0.9029.2054|$
+1529256335273|0|0|0|$
 The plugin allows you to have a better experience with Microsoft SharePoint|$
 Microsoft Office 2016|$
 2
@@ -16,8 +25,8 @@ Microsoft Office 2016|$
 1|application/x-sharepoint-uc|||$
 npMeetingJoinPluginOC.dll|$
 C:\Program Files\Microsoft Office\root\VFS\ProgramFilesX86\Mozilla Firefox\plugins\npMeetingJoinPluginOC.dll|$
-16.0.8730.2046|$
-1515110638541|0|0|0|$
+16.0.9126.2072|$
+1529256025872|0|0|0|$
 The plugin allows you to have a better experience with Microsoft Lync|$
 Microsoft Office 2016|$
 1
@@ -77,6 +86,15 @@ NPRuntime Script Plug-in Library for Java(TM) Deploy|$
 Java Deployment Toolkit 8.0.1510.12|$
 1
 0|application/java-deployment-toolkit|||$
+NPSWF32_30_0_0_113.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_30_0_0_113.dll|$
+30.0.0.113|$
+1528819480268|0|0|0|$
+Shockwave Flash 30.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
 npcomposerplayerwebplugin.dll|$
 C:\Program Files\SOLIDW~1\SOLIDW~2\Bin\x86\npcomposerplayerwebplugin.dll|$
 7.2.4.2986|$
@@ -86,7 +104,7 @@ Composer Player Web Plugin|$
 1
 0|application/x-composerplayerwebplugin|Composer Player Web Plugin||$
 npCodebendercc.dll|$
-F:\Logiciels\Programmation\AI2U_server\light\browser\Light\Light\Profiles\72k838q4.default\extensions\codebender@codebender.cc\plugins\npCodebendercc.dll|$
+F:\Logiciels\Projets\AI2U\serveur\Debug_Build\light\browser\Light\Light\Profiles\72k838q4.default\extensions\codebender@codebender.cc\plugins\npCodebendercc.dll|$
 1.7.0.0|$
 1491913525870|0|0|1|$
 Plugin for the Codebender.cc Arduino - Browser Communication|$
